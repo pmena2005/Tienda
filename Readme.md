@@ -8,6 +8,7 @@ caso de uso: yo como chino javier necesito añadir productos a mi programa
 	     yo como chino javier necesito crear clientes en mi programa
 	     yo como el chino quiero vender
 	     yo como cliente quiero mi ticket
+	     el chino javier quiere cobrar al cliente y saber el cambio que da en el menor numero de billetes posibles
 
 1º git dos ramas desarroyo y master(finales)
 2º diagramas
