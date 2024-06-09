@@ -1,0 +1,76 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Pan",
+      "precio": 1.50,
+      "descripcion": "Pan fresco de la panadería local",
+      "disponibilidad": true,
+      "categoria": "Alimenticios"
+    },
+    {
+      "id": 2,
+      "nombre": "Leche",
+      "precio": 0.99,
+      "descripcion": "Leche entera pasteurizada",
+      "disponibilidad": true,
+      "categoria": "Alimenticios"
+    },
+    {
+      "id": 3,
+      "nombre": "Huevos",
+      "precio": 2.00,
+      "descripcion": "Docena de huevos orgánicos",
+      "disponibilidad": false,
+      "categoria": "Alimenticios"
+    },
+    {
+      "id": 4,
+      "nombre": "Detergente",
+      "precio": 3.99,
+      "descripcion": "Detergente para ropa de alta eficiencia",
+      "disponibilidad": true,
+      "categoria": "Limpieza"
+    },
+    {
+      "id": 5,
+      "nombre": "Limpiador Multiusos",
+      "precio": 2.50,
+      "descripcion": "Limpiador multiusos para superficies",
+      "disponibilidad": true,
+      "categoria": "Limpieza"
+    },
+    {
+      "id": 6,
+      "nombre": "Toallas de Papel",
+      "precio": 1.75,
+      "descripcion": "Rollo de toallas de papel absorbentes",
+      "disponibilidad": false,
+      "categoria": "Limpieza"
+    },
+    {
+      "id": 7,
+      "nombre": "E-book",
+      "precio": 5.99,
+      "descripcion": "E-book sobre programación en Java",
+      "disponibilidad": true,
+      "categoria": "Virtuales"
+    },
+    {
+      "id": 8,
+      "nombre": "Suscripción a Revista",
+      "precio": 12.00,
+      "descripcion": "Suscripción anual a una revista digital",
+      "disponibilidad": true,
+      "categoria": "Virtuales"
+    },
+    {
+      "id": 9,
+      "nombre": "Curso Online",
+      "precio": 49.99,
+      "descripcion": "Curso online de desarrollo web",
+      "disponibilidad": true,
+      "categoria": "Virtuales"
+    }
+  ]
+}

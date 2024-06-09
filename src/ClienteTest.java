@@ -1,12 +1,10 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
 import org.junit.Test;
-import org.junit.internal.JUnitSystem;
 
 public class ClienteTest{
 	
@@ -16,10 +14,16 @@ public class ClienteTest{
 		assertEquals("pablo", c.getNombre());
 	}
 	
-	@Test
-	//no se hacerlo
-	public void testAñadirCliente() {
-		
-	}
 	
+	@Test
+	public void testAñadirCliente() {
+		Cliente cliente = new Cliente("Juan");
+	    cliente.añadirCliente("Pedro");
+	    try (BufferedReader reader = new BufferedReader(new FileReader("clientes.csv"))) {
+	    	String linea = reader.readLine();
+	        assertEquals("Pedro,", linea);
+	    } catch (IOException e) {
+	    	e.printStackTrace();
+	        }
+	}
 }

@@ -1,0 +1,25 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Pan",
+      "precio": 1.50,
+      "descripcion": "Pan fresco de la panadería local",
+      "disponibilidad": true
+    },
+    {
+      "id": 2,
+      "nombre": "Leche",
+      "precio": 0.99,
+      "descripcion": "Leche entera pasteurizada",
+      "disponibilidad": true
+    },
+    {
+      "id": 3,
+      "nombre": "Huevos",
+      "precio": 2.00,
+      "descripcion": "Docena de huevos orgánicos",
+      "disponibilidad": false
+    }
+  ]
+}

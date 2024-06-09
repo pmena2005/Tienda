@@ -1,0 +1,25 @@
+{
+  "productos": [
+    {
+      "id": 7,
+      "nombre": "E-book",
+      "precio": 5.99,
+      "descripcion": "E-book sobre programación en Java",
+      "disponibilidad": true
+    },
+    {
+      "id": 8,
+      "nombre": "Suscripción a Revista",
+      "precio": 12.00,
+      "descripcion": "Suscripción anual a una revista digital",
+      "disponibilidad": true
+    },
+    {
+      "id": 9,
+      "nombre": "Curso Online",
+      "precio": 49.99,
+      "descripcion": "Curso online de desarrollo web",
+      "disponibilidad": true
+    }
+  ]
+}

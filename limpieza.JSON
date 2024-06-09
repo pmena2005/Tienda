@@ -1,0 +1,25 @@
+{
+  "productos": [
+    {
+      "id": 4,
+      "nombre": "Detergente",
+      "precio": 3.99,
+      "descripcion": "Detergente para ropa de alta eficiencia",
+      "disponibilidad": true
+    },
+    {
+      "id": 5,
+      "nombre": "Limpiador Multiusos",
+      "precio": 2.50,
+      "descripcion": "Limpiador multiusos para superficies",
+      "disponibilidad": true
+    },
+    {
+      "id": 6,
+      "nombre": "Toallas de Papel",
+      "precio": 1.75,
+      "descripcion": "Rollo de toallas de papel absorbentes",
+      "disponibilidad": false
+    }
+  ]
+}
